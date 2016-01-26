@@ -1,2 +1,2 @@
 # pebble-timetable_c
-source for the thing
+I made an app for my timetable on my pebble and heres the source. Feel free to use for your own projects
