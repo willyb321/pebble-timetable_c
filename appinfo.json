@@ -1,0 +1,35 @@
+{
+    "appKeys": {
+        "dummy": 0
+    },
+    "capabilities": [
+        ""
+    ],
+    "companyName": "Willyb321",
+    "longName": "TimeTable",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "file": "images/icon",
+                "menuIcon": true,
+                "name": "icon_app_thank",
+                "storageFormat": "png",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "TimeTable",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "0a89b208-6cb8-4cf5-a928-cc46a482ccf3",
+    "versionLabel": "2.2",
+    "watchapp": {
+        "watchface": false
+    }
+}
