@@ -5,7 +5,7 @@ static ScrollLayer *s_scroll_layer;
 static TextLayer *s_content_layer;
 static ContentIndicator *s_indicator;
 static Layer *s_indicator_up_layer, *s_indicator_down_layer;
-
+//Set subjects here.
 static char s_content[] = "Monday A\nPDM, GYM, FOOD, ENG, MATH\nMonday B\nGYM, GEO, SCI, MATH, FOOD\nTuesday A\nIPT, MATH, SCI, PDM, SCI, ENG\nTuesday B\nFOOD, GEO, IPT, ENG, MATH, PDHPE\nWednesday A\nIPT, FOOD, GEO, CAR, SPORT\nWednesday B\nIPT, GEO, PDM, ENG, SPORT\nThursday A\nMATH, PDM, ENG, FOOD, SCI, IPT\nThursday B\nMath, ENG, GEO, PDM, IPT, SCI\nFriday A\nPDH, SCI, MATH, SCI, GEO, ENG\nFriday B\nENG, PDM, SCI, MATH, GEO, FOOD\n";
 
 static void window_load(Window *window) {
