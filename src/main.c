@@ -5,8 +5,8 @@ static ScrollLayer *s_scroll_layer;
 static TextLayer *s_content_layer;
 static ContentIndicator *s_indicator;
 static Layer *s_indicator_up_layer, *s_indicator_down_layer;
-//Set subjects here.  
-static char s_content[] = "Monday A\n\nSDD(43), ENG(58), BUSI(54), VET IT(47), MATH(12), HOME\n\nMonday B\n\nENG(58), BUSI(54), VET IT(47), SDD(43), HOME\n\nTuesday A\n\nHOME, VET IT(47), SDD(43), BUSI(54), MATH(12), HOME\n\nTuesday B\n\n0:SDD(43), ENG(58), FREE, VET IT(47), MATH(12), SDD(43), BUSI(54)\n\nWednesday A\n\nENG(58), FREE, MATH(12), BUSI(54), HOME\n\nWednesday B\n\nNOPE\n\nThursday A\n\nBUSI(54), VET IT(47), MATH(12), ENG(58), SDD(43), HOME\n\nThursday B\n\nBUSI(54), MATH(12), SDD(43), FREE, ENG(58), VET IT(47)\n\nFriday A\n\n0:VET IT(47), MATH(12), FREE, SDD(43), ENG(58), HOME\n\nFriday B\n\nMATH(12), ENG(58), FREE, BUSI(54), HOME";
+//Set subjects here. use 2 newlines between days  
+static char s_content[] = "Monday A\n\nSDD(43), ENG(58), BUSI(54), VET IT(47), MATH(12), HOME\n\nMonday B\n\nENG(58), BUSI(54), VET IT(47), SDD(43), HOME\n\nTuesday A\n\nFREE, VET IT(47), SDD(43), BUSI(54), MATH(12), HOME\n\nTuesday B\n\n0:SDD(43), 1:ENG(58), 2:FREE, 3:VET IT(47), 4:MATH(12), 5:SDD(43), 6:BUSI(54)\n\nWednesday A\n\nENG(58), FREE, MATH(12), BUSI(54), HOME\n\nWednesday B\n\nNOPE\n\nThursday A\n\nBUSI(54), VET IT(47), MATH(12), ENG(58), SDD(43), HOME\n\nThursday B\n\nBUSI(54), MATH(12), SDD(43), FREE, ENG(58), VET IT(47)\n\nFriday A\n\n0:VET IT(47), 1:VET IT(47), 2:MATH(12), 3:FREE, 4:SDD(43), 5:ENG(58), 6:HOME\n\nFriday B\n\nMATH(12), ENG(58), FREE, BUSI(54), HOME";
 
 static void window_load(Window *window) {
   Layer *window_layer = window_get_root_layer(window);
