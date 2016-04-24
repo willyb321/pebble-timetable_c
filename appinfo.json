@@ -6,6 +6,7 @@
         ""
     ],
     "companyName": "Willyb321",
+    "enableMultiJS": false,
     "longName": "TimeTable",
     "projectType": "native",
     "resources": {
@@ -28,7 +29,7 @@
         "chalk"
     ],
     "uuid": "0a89b208-6cb8-4cf5-a928-cc46a482ccf3",
-    "versionLabel": "2.4",
+    "versionLabel": "2.5",
     "watchapp": {
         "watchface": false
     }
